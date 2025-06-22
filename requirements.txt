@@ -1,0 +1,8 @@
+websockets==11.0.3
+asyncio
+pycryptodome==3.20.0
+rich==13.7.1
+tk
+requests
+numpy
+scapy

